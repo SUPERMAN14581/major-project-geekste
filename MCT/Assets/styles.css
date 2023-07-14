@@ -1,0 +1,235 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+    /* overflow-x: auto; */
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 100vw;
+}
+
+.header{
+    height: 63px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav{
+     text-align: center;
+     padding: 10px;
+}
+
+#logo{
+    height: 45px;
+    width: 110px;
+    
+}
+
+#poster-1{
+    height: 90vh;
+    width: 100%;
+}
+
+/* .poster,.psoter-4,.poster-2,.psoter-3,.poster-2{
+    border: 2px solid blue;
+} */
+
+.poster-four{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    height:100px;
+    width:fit-content;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.poster-four{
+    width: 100vw;
+    height: auto;
+}
+
+.psoter-4{
+   padding: 16px 16px 16px 0px;
+}
+
+.psoter-40{
+    padding: 16px 0px 16px 0px;
+ }
+
+.poster-two{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* width: 100vw; */
+    height: auto;
+    gap: 1.5rem;
+}
+
+/* .poster-2{
+    gap: 1rem;
+} */
+
+.poster-three{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height:auto;
+    gap: 1rem;
+    text-align: center;
+}
+
+.poster-three{
+    height: auto;
+    gap: 1rem;
+}
+
+.poster-second{
+    display: grid;
+    grid-template-columns: auto auto;
+    height:auto;
+    gap: 1rem;
+}
+
+.icons{
+    position: absolute;
+    right: 5rem;
+}
+/* .poster-two, .poster-three, .poster-second, .description{
+    background-color:rgb(233, 233, 233);
+    padding: 1rem 5rem 1rem 5rem;
+} */
+
+.footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+    padding: 1rem 5rem 1rem 5rem;
+    font-size: small;
+    height: 2rem;
+}
+section{
+    background-color:rgb(233, 233, 233);
+    padding: 1rem 5rem 1rem 5rem;
+}
+
+.logos{
+    margin: auto;
+    height: 36px;
+    width: 84px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: small;
+    height: 2rem;
+}
+
+.headers{
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.fa-brands{
+    color: black;
+    height: 2rem;
+    width: 2rem;
+}
+
+i{
+    height: 2rem;
+    width: 2rem;
+}
+@media(max-width: 720px){
+    .poster-four{
+    display: grid;
+    grid-template-columns: auto auto;
+    height:auto;
+   }
+}
+
+@media(max-width: 360px){
+    .poster-four{
+        display: grid;
+        grid-template-columns: auto;
+        height:auto;
+    }
+
+    .poster-two{
+        display: grid;
+        grid-template-columns: auto;
+        height:auto;
+    }
+
+    .poster-three{
+        display: grid;
+        grid-template-columns: auto;
+        height:auto;
+    }
+
+    .poster-second{
+        display: grid;
+        grid-template-columns: auto;
+        height:auto;
+    }
+}
+
+@media(max-width: 460px){
+    .poster-four{
+        display: grid;
+        grid-template-columns: auto;
+        height:auto;
+    }
+
+    .poster-two{
+        display: grid;
+        grid-template-columns: auto;
+        height:auto;
+    }
+
+    .poster-three{
+        display: grid;
+        grid-template-columns: auto;
+        height:auto;
+    }
+
+    .poster-second{
+        display: grid;
+        grid-template-columns: auto;
+        height:auto;
+    }
+}
+
+@media(max-width: 497px){
+    .poster-four{
+        display: grid;
+        grid-template-columns: auto;
+        height:auto;
+    }
+
+    .poster-two{
+        display: grid;
+        grid-template-columns: auto;
+        height:auto;
+    }
+
+    .poster-three{
+        display: grid;
+        grid-template-columns: auto;
+        height:auto;
+    }
+
+    .poster-second{
+        display: grid;
+        grid-template-columns: auto;
+        height:auto;
+    }
+}
